@@ -16,7 +16,8 @@
   -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/cpu">
+        android:title="@string/cpu"
+android:visibility="gone">
 		<Preference
 			android:key="big_core_clock"
 			android:title="@string/big_core_clock"

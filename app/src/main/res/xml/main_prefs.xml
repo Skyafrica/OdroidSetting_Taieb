@@ -28,7 +28,9 @@
         android:fragment="com.hardkernel.odroid.settings.cpu.CpuFragment"
         android:icon="@drawable/ic_settings_more"
         android:key="cpu"
-        android:title="@string/cpu" />
+        android:title="@string/cpu" 
+        android:visibility="gone"
+/>
     <Preference
         android:fragment="com.hardkernel.odroid.settings.gpu.GpuFragment"
         android:icon="@drawable/ic_gpu"
