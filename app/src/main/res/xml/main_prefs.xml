@@ -24,12 +24,16 @@
         android:icon="@drawable/ic_system_update"
         android:key="update"
         android:title="@string/update" />
+<<<<<<< Updated upstream
     <Preference
         android:fragment="com.hardkernel.odroid.settings.cpu.CpuFragment"
         android:icon="@drawable/ic_settings_more"
         android:key="cpu"
         android:title="@string/cpu" 
         android:visibility="gone"/>
+=======
+   
+>>>>>>> Stashed changes
     <Preference
         android:fragment="com.hardkernel.odroid.settings.gpu.GpuFragment"
         android:icon="@drawable/ic_gpu"
