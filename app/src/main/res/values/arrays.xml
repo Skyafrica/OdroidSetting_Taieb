@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="sound_select_entries">
+        <item>HDMI, Line out</item>
+        <item>SPDIF</item>
+        <item>I2S</item>
+    </string-array>
+
+    <string-array name="sound_select_entry_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_entries">
+        <item>A2DP</item>
+        <item>A2DP SINK</item>
+    </string-array>
+
+    <string-array name="bluetooth_a2dp_entry_values" translatable="false">
+        <item>false</item>
+        <item>true</item>
+    </string-array>
+
+    <string-array name="dolby_vision_entries">
+        <item>Dolby Vision OFF</item>
+        <item>Dolby Vision Follow Sink</item>
+        <item>Dolby Vision Follow Source</item>
+    </string-array>
+    <string-array name="dolby_vision_entry_values" translatable="false">
+        <item>dolby_vision_off</item>
+        <item>dolby_vision_sink</item>
+        <item>dolby_vision_source</item>
+    </string-array>
+</resources>
